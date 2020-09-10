@@ -37,6 +37,7 @@ class BinarySearchTree {
 			System.out.println(b);
 	}
 
+	// insert data for the local change
 	TreeNode root;
 
 	public boolean insert(int data) {
