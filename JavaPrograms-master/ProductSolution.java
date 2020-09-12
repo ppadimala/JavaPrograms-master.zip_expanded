@@ -7,7 +7,7 @@
 			System.out.println(a);
 		}
 	}	
-	
+	// Add product selection in the below method
 
 	public static int[] getProductArray(int[] arr){
 		if(arr.length ==0 || arr == null){
