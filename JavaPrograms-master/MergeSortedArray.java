@@ -7,8 +7,6 @@ public class MergeSortedArray {
 		int[] b = new int[] { 5, 6, 10, 56, 89 };
 		int[] mergedArray = mergeSortedArrays(a, b);
 	}
-	
-	// merge two already sorted arrays to a sorted array
 
 	static int[] mergeSortedArrays(int[] a, int[] b) {
 
