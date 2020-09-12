@@ -7,7 +7,8 @@ to be after the elements less than x (see below). The partition element x can ap
 "right partition"; it does not need to appear between the left and right partitions.
 */
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2){
-        
+       
+		// partition a linked list
 		ListNode head = new ListNode(0);
 		ListNode n = head;
 		int carry = 0;
