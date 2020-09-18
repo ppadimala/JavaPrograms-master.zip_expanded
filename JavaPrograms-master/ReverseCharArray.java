@@ -15,6 +15,12 @@ class ReverseCharArray {
 
 		}
 		return result;
+
+		for(int i = 0; i <s2.length(); i++){
+			char c = s2.charAt(i);
+			if(map.containsKey(c)){
+				map.replace(c,map.get(c) -1);
+			}
 	}
 
 }

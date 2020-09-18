@@ -22,7 +22,7 @@ public class CompressedString{
 		System.out.println(t1.compString(s6));
 	}
 }
-
+// Test class to append the values
 class Test{
 
 	public String compString(String s){
