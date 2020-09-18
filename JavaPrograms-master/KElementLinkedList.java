@@ -27,7 +27,7 @@ public class KElementLinkedList{
 		n3.next = n4;
 		n4.next = n5;
 	
-		
+		//Element linked list
 		System.out.println(getElement(3,n1).data);
 	}
 	
