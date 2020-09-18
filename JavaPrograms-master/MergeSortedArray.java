@@ -27,6 +27,7 @@ public class MergeSortedArray {
 		}
 		
 		//added a method for mergeSortedArray
+		//added another method for oneway string
 
 		return merged;
 	}
