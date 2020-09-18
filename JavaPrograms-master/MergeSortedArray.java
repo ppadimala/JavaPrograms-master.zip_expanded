@@ -25,6 +25,8 @@ public class MergeSortedArray {
 		while (j < b.length) {
 			merged[k++] = b[j++];
 		}
+		
+		//added a method for mergeSortedArray
 
 		return merged;
 	}
