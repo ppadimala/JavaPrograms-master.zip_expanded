@@ -17,6 +17,7 @@ public class GooglePage extends BasePage{
 		driver.findElements(By.xpath("//h3")).stream().forEach(ele -> System.out.println(ele.getText()));
 	}
 
+	//Introudce a teardown function
 	// tear down function to close browser
 	public void tearDown() {
 		driver.quit();
